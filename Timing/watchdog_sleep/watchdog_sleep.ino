@@ -43,8 +43,9 @@ void setup() {
 void loop() {   
   Serial.println("_______________________Loop started_______________________"); 
   for(int i=0;i<20;i++) blinkPeriod(100,0);
-  enterSleep();
+  enterSleep(); //messungen siehe slow motion video auf iphone
   for(int i=0;i<10;i++) blinkPeriod(100,1);
   digitalWrite(13,HIGH);
   delay(1000);
 }
+
